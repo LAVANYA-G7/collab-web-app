@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run Colab_webpage app.py
+web: sh setup.sh && streamlit run Colab_webpage.py
