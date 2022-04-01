@@ -1,6 +1,6 @@
         numpy
         pandas
         sklearn
-      
+        opencv-python-headless
         streamlit==0.60.0
         
