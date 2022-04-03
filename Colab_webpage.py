@@ -68,3 +68,18 @@ for product, rating in example:
   similar_products=similar_products.append(get_similar_products(product, rating),ignore_index=True)
 st.write("Your most recommended products are ")
 st.dataframe(similar_products.sum().sort_values(ascending=False).head()) 
+
+
+
+
+
+
+
+
+echo "# streamlit-to-heroku-tutorial" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/your_username/your_repo_name.git
+git push -u origin master
